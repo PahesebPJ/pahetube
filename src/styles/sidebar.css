@@ -1,0 +1,42 @@
+.sidebar-container {
+    width: 220px;
+    height: 100vh;
+    border:1px solid #cccccc;
+    box-shadow: 0 0 10px #f0ecec;
+    transition: 0.5s;
+    margin-top: 55px;
+    position: fixed;
+    background-color: white;
+}
+
+.sidebar-container__list {
+    list-style: none;
+    display: block;
+    margin-top: 8px;
+}
+
+.sidebar-container__list li {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    height: 40px;
+}
+
+.sidebar-container__list li:hover {
+    background-color: #e2e2e2;
+}
+
+.sidebar-container__list__link span{
+    text-decoration: none;
+    color:black;
+    padding-left: 30px;
+    transition: 0.2s;
+}
+
+.sidebar-container__list__link__icon {
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: black;
+    transition: 0.5s;
+}

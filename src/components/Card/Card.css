@@ -1,0 +1,84 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+}
+
+.card-container {
+    width: 270px;
+    height: 300px;
+    display: grid;
+}
+
+.card-container:hover {
+    cursor: pointer;
+}
+
+.card-image {
+    height: 200px;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.card-details{
+    margin-top: 0px;
+    max-width: 100%;
+    height: 100px;
+}
+
+.card-details-container__card-title-image {
+    display: flex;
+}
+
+.card-channel-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    padding: 2px;
+}
+
+.card-title {
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 75%;
+    max-width: 75%;
+    margin-top: 0px;
+    padding: 0px 0px 10px 0px;
+    margin: 5px;
+    max-height: 34px;
+    color: black;
+    font-size: 1.17em;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.card-details-container__card-channel{
+    display: grid;
+    height: 25px;
+    max-width: 100%;
+    max-height: 25px;
+    grid-template-columns: 100%;
+}
+
+.card-channel {
+    margin-top: 0px;
+    height: 25px;
+    max-width: 100%;
+    margin-left: 49px;
+}
+
+.card-details-container-views-date {
+    display: grid;
+    max-width: 100%;
+    max-height: 31px;
+    grid-template-columns: 50% 50%;
+}
+
+.card-views {
+    margin-top: 0px;
+    text-align: right;
+    padding-right: 13px;
+}
+
+.card-date {
+    margin-top: 0px;
+    padding-left: 0px;
+}
